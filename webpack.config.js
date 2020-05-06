@@ -59,8 +59,8 @@ module.exports = {
             chunkFilename: "[id].css"
         }),
         new CopyWebpackPlugin([
-            {from:'src/assets/fonts',to:'fonts'},
-            {from:'src/assets/img',to:'img'}
+            {from:'./src/assets/fonts',to:'fonts'},
+            {from:'./src/assets/img',to:'img'}
         ])
     ]
 
